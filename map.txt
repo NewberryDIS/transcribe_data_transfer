@@ -1,0 +1,19 @@
+filename
+transcription
+
+
+SELECT page_title, page_touched, old_text
+FROM revision,page,text
+WHERE revision.rev_id=page.page_latest
+AND text.old_id=revision.rev_text_id;
+
+
+user revision history: 
+user: 
+user
+user_id
+user_email
+
+rev: 
+count of (rev_user) where user_id == rev_user
+
